@@ -1,2 +1,4 @@
 name: House N2 Home
 markdown: kramdown
+
+permalink: /news/:year/:month/:day/:title
