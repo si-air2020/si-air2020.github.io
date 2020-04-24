@@ -177,8 +177,10 @@ header #btnNav:checked ~ .iconNav span:after {
 /*GET INVOLVED CONTENT*/
 
 .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   position: relative;
-  top: 300px;
+  top: -300px;
   margin-left: 2em auto;
   margin-right: 2em auto;
 }
@@ -187,7 +189,10 @@ h1 {
 
   color: #719641;
 
+}
 
+.donate {
+  grid-column: 2:3;
 }
 
 
