@@ -178,12 +178,14 @@ header #btnNav:checked ~ .iconNav span:after {
 
 .container {
   position: relative;
-  top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  top: 200px;
+  margin-left: 2em auto;
+  margin-right: 2em auto;
 }
 
 h1 {
+
+  color: #719641;
 
 
 }
