@@ -116,11 +116,6 @@ nav a:hover {
 }
 
 
-
-
-
-
-
 .iconNav span {
   background: var(--color-nav-link-active);
   display: block;
@@ -177,6 +172,27 @@ header #btnNav:checked ~ .iconNav span:after {
   box-shadow: inset 4px 0px 0px 0px var(--color-nav-link-active);
 } */
 
+/*END NAV*/
+
+/*GET INVOLVED CONTENT*/
+
+.container {
+  top: 20px;
+  margin:auto;
+}
+
+h1 {
+
+
+}
+
+
+
+
+
+/*END GET INVOLVED CONTENT*/
+
+/*FOOTER*/
 footer{
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
