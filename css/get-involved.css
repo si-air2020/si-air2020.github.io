@@ -177,8 +177,7 @@ header #btnNav:checked ~ .iconNav span:after {
 /*GET INVOLVED CONTENT*/
 
 .container {
-  position: relative;
-  top: 200px;
+  
   margin-left: 2em auto;
   margin-right: 2em auto;
 }
