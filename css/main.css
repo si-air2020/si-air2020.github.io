@@ -379,7 +379,7 @@ footer{
         width: 100%;
         padding: 2em;
         position: relative;
-        margin:1em;
+        margin:1em 0;
       }
 
       /* .fwbTxt {
