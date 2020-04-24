@@ -1,18 +1,24 @@
 /*||||||||| RESET ||||||||||*/
 
-* { padding: 0;  margin: 0; }
+/* * { padding: 0;  margin: 0; }
+
 *, *:before, *:after { box-sizing: inherit; }
+
 html { box-sizing: border-box; font-size: 62.5%; }
+
 body { color: var(--color-dark); background: var(--color-light); }
+
 ::selection { color: var(--color-light);  background: var(--color-dark); }
+
 :focus { outline: 2px dotted var(--color-dark); outline-offset: -2px; }
+
 body, input, select, textarea, pre, code, button {
   font-size: 1.6rem;
   line-height: 1.5;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 100;
   letter-spacing: .05rem;
-}
+} */
 
 /*||||||||| VAR ||||||||||*/
 
@@ -180,8 +186,8 @@ header #btnNav:checked ~ .iconNav span:after {
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: relative;
-  margin-left: 2em 100px;
-  margin-right: 2em 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 h1 {
