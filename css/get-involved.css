@@ -180,9 +180,8 @@ header #btnNav:checked ~ .iconNav span:after {
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: relative;
-  top: -300px;
-  margin-left: 2em auto;
-  margin-right: 2em auto;
+  margin-left: 2em 100px;
+  margin-right: 2em 100px;
 }
 
 h1 {
@@ -191,10 +190,13 @@ h1 {
 
 }
 
-.donate {
-  grid-column: 2:3;
-}
+ button {
+   color: #719641;
+   border-radius: 4px;
+   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 
+
+ }
 
 
 
