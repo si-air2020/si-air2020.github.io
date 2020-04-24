@@ -1,6 +1,6 @@
 /*||||||||| RESET ||||||||||*/
 
-/* * { padding: 0;  margin: 0; }
+* { padding: 0;  margin: 0; }
 
 *, *:before, *:after { box-sizing: inherit; }
 
@@ -183,8 +183,8 @@ header #btnNav:checked ~ .iconNav span:after {
 /*GET INVOLVED CONTENT*/
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
   position: relative;
   margin-left: 100px;
   margin-right: 100px;
@@ -197,7 +197,8 @@ h1 {
 }
 
  button {
-   color: #719641;
+   background: #719641;
+   color: white;
    border-radius: 4px;
    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 
