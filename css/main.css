@@ -331,7 +331,7 @@ footer{
         grid-gap: 1em;
         max-width: 960px;
         justify-self: center;
-        margin: 1em;
+        margin: auto;
       }
 
       .box1 {
@@ -379,6 +379,7 @@ footer{
         width: 100%;
         padding: 2em;
         position: relative;
+        margin:1em;
       }
 
       /* .fwbTxt {
