@@ -197,6 +197,10 @@ div {
 
   padding-bottom: 50px;
 }
+
+div.info {
+  padding-bottom: 200px;
+}
 h1 {
 
   font-size: 36px;
@@ -211,9 +215,6 @@ h2 {
 
 }
 
-h3 {
-  color: black;
-}
 
 p {
   padding-top: 10px;
@@ -248,6 +249,87 @@ p {
 .events {
   padding-bottom: 50px;
 }
+
+iframe {
+  display: block;
+  margin: auto;
+}
+/*wishlist */
+
+div h3 {
+  color: #3A4151;
+  padding-right: 30px;
+  width: 220px;
+  font-weight: 300;
+}
+
+div.wishlist > div {
+  display: flex;
+}
+
+ul.flex {
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+ul.misc {
+  height: 240px;
+}
+
+
+ul.flex > li {
+  padding-right: 100px;
+  width: 327px;
+  padding-bottom: 10px;
+  font-weight: normal;
+  color: #3A4151;
+
+}
+
+div.guidelines > p {
+  padding-bottom: 20px;
+}
+ul.guidelines {
+  position: relative;
+  list-style-position: inside;
+
+}
+
+ul.guidelines > li {
+  font-weight: normal;
+  color: #3A4151;
+
+}
+/*items*/
+div.items > div > div {
+  display: flex;
+}
+
+div.items > div > div > ul.flex {
+  height: 270px;
+}
+
+div.items > div > div > ul.flex > li {
+  width: 345px;
+}
+
+div.info > div > h3 {
+
+  font-weight: normal;
+  color: #3A4151;
+
+}
+
+div.info > div {
+  padding-bottom: 20px;
+}
+
+
+
+
 
 
 /*END GET INVOLVED CONTENT*/
@@ -363,7 +445,7 @@ footer{
   }
 
   h3{
-    color: #ffffff;
+    /* color: #ffffff; */
   }
 
   .heroTxt {
