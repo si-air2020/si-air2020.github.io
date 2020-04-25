@@ -482,7 +482,7 @@ footer{
   .index-wrapper {
 
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1em;
     max-width: 960px;
     justify-self: center;
@@ -503,7 +503,7 @@ footer{
     width: 100%;
 
 
-    background-image: linear-gradient(60deg, #8CBABE 8.85%, rgba(140, 186, 190, 0.59) 42.19%, rgba(193, 218, 220, 0.31624) 69.27%, rgba(255, 255, 255, 0) 96.35%), url("images/header.png");
+    background-image: linear-gradient(60deg, #8CBABE 8.85%, rgba(140, 186, 190, 0.59) 42.19%, rgba(193, 218, 220, 0.31624) 69.27%, rgba(255, 255, 255, 0) 96.35%), url("images/proj-2.png");
     background-size: cover;
   }
 
