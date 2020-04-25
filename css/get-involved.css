@@ -18,7 +18,7 @@ body, input, select, textarea, pre, code, button {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 100;
   letter-spacing: .05rem;
-} */
+}
 
 /*||||||||| VAR ||||||||||*/
 
@@ -186,23 +186,38 @@ header #btnNav:checked ~ .iconNav span:after {
   /* display: grid;
   grid-template-columns: 1fr 1fr; */
   position: relative;
+  top: 200px;
   margin-left: 100px;
   margin-right: 100px;
 }
 
 h1 {
 
+  font-size: 36px;
   color: #719641;
 
 }
 
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  color: black;
+}
+
+.buttons {
+  margin: 0 auto;
+}
  button {
    background: #719641;
    color: white;
    border-radius: 4px;
    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-
-
+   padding: 5px;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-weight:normal;
  }
 
 
