@@ -480,6 +480,34 @@ footer{
 /* Index Styling */
 
 
+  .index-wrapper {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    max-width: 960px;
+    justify-self: center;
+    margin: auto;
+  }
+
+  .index_header {
+
+    display: inline-grid;
+    grid-column: 1 / -1;
+    min-height: 400px;
+    max-height: 600px;
+
+    background-repeat: no-repeat;
+    margin:0;
+    background-position: bottom;
+    align-items: center;
+    width: 100%;
+
+
+    background-image: linear-gradient(60deg, #8CBABE 8.85%, rgba(140, 186, 190, 0.59) 42.19%, rgba(193, 218, 220, 0.31624) 69.27%, rgba(255, 255, 255, 0) 96.35%), url("images/header.png");
+    background-size: cover;
+  }
+
   .headerTxt {
 
     display: grid;
