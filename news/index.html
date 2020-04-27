@@ -7,7 +7,7 @@ title: News
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-		<li><span><strong>{{ post.date | date_to_string }}</strong></span> | <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		<li><span><strong>{{ post.date | date_to_string }}</strong></span><br><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
 </div>
