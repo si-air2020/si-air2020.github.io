@@ -536,3 +536,23 @@ footer{
   #whatTxt {
     grid-column: 1 / span 1;
   }
+
+  .news-section {
+    position: relative;
+    top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 200px;
+  }
+
+  .news-section ul {
+    list-style-type: none;
+  }
+
+  .news-section h1 {
+    color: #719641;
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
