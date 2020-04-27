@@ -1,14 +1,52 @@
----
-layout: default
-title: News
----
-<div class="news-section">
-	<h1>{{ page.title }}</h1>
-	<p class="news-blurb">Stay up-to-date with House N2 Home by checking out our posts below!</p>
-	<ul class="posts">
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/news.css">
+		</head>
+		<body>
+			
+		<header>
+            		<a class="logo" href="/">
+              			<img src="/images/logo.png" alt="Logo"/>
+            		</a>
+        
+            		<input type="checkbox" id="btnNav" />
+           		 <label class="iconNav" for="btnNav"><span></span></label>
+            
+            		<nav>
+              			<ul>
+				<!-- <li><a class="active" href="#">Link</a></li> -->
+				<li><a href="/">Home</a></li>
+				<li><a href="/projects">Projects</a></li>
+				<li><a href="/news">News</a></li>
+				<li><a href="/get-involved">Get Involved</a></li>
+			      </ul>
+			    </nav>
+        	</header>
+			<div class="container">
+			
+				<div class="news-section">
+					<h1>{{ page.title }}</h1>
+					<p class="news-blurb">Stay up-to-date with House N2 Home by checking out our posts below!</p>
+					<ul class="posts">
 
-	  {% for post in site.posts %}
-		<li><span><strong>{{ post.date | date_to_string }}</strong></span><br><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
-</div>
+					  {% for post in site.posts %}
+						<li><span><strong>{{ post.date | date_to_string }}</strong></span><br><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+					  {% endfor %}
+					</ul>
+				</div>
+
+			</div><!-- /.container -->
+			<footer>
+			    <p>© Copyright 2020 HOUSE N2 HOME</p>
+			    <div class="sMedia">
+			      <a href="https://www.facebook.com/HouseN2HomeWashtenaw"><img src="/images/icon-fb.png" alt="Facebook"></a>
+			      <a href="#foo"><img src="/images/icon-ins.png" alt="LinkedIn"></a>
+			      <a href="#foo"><img src="/images/icon-tw.png" alt="Twitter"></a>
+			  </div>
+			</footer>
+			<script src="/js/mainScript.js"> </script>
+		</body>
+	</html>
