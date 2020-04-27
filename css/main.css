@@ -12,6 +12,8 @@ body, input, select, textarea, pre, code, button {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 100;
   letter-spacing: .05rem;
+/*   COLLEEN */
+  font-size:200%;
 }
 
 /*||||||||| VAR ||||||||||*/
@@ -198,6 +200,12 @@ footer{
   margin: 10px;
 }
 
+/*COLLEEN MOBILE CODE:*/
+.sec1, .sec2, .sec3{
+grid-template-columns: 1fr;
+}
+
+#what{order: -1;}
 
 /********************************************************/
 @media all and (min-width: 768px) {
@@ -542,27 +550,33 @@ footer{
     background-color: #3A4151;
     justify-content: center;
     text-align: center;
-    padding-top: 25%;
+/*     COLLEEN - changed from 25% on top and added align-self */
+    padding: 10%;
+    align-self: center;
   }
 
   #what {
-    grid-column: 2 / span 1;
+/*     COLLEEN
+    grid-column: 2 / span 1; */
 
     background-color: #7FBBBF;
     color: #3A4151;
 
     justify-content: center;
     text-align: center;
-    padding-top: 33%;
+    /*     COLLEEN - changed from 33% on top and added align-self */
+    padding: 10%;
+    align-self: center;
   }
 
   #whoTxt, #whyTxt {
+    /*     COLLEEN
     grid-column: 2 / span 1;
   }
 
   #whatTxt {
     grid-column: 1 / span 1;
-  }
+  }*/
 
 .news-section {
   position: relative;
