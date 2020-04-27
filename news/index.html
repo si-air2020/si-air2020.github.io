@@ -2,13 +2,13 @@
 layout: default
 title: News
 ---		
-	<div class="news-section">
-		<h1>{{ page.title }}</h1>
-		<p class="news-blurb">Stay up-to-date with House N2 Home by checking out our posts below!</p>
-		<ul class="posts">
+<div class="news-section">
+	<h1>{{ page.title }}</h1>
+	<p class="news-blurb">Stay up-to-date with House N2 Home by checking out our posts below!</p>
+	<ul class="posts">
 
-		  {% for post in site.posts %}
-			<li><span><strong>{{ post.date | date_to_string }}</strong></span><br><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-		  {% endfor %}
-		</ul>
-	</div>
+	  {% for post in site.posts %}
+		<li><span><strong>{{ post.date | date_to_string }}</strong></span><br><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+</div>
