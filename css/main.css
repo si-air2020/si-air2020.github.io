@@ -537,37 +537,38 @@ footer{
     grid-column: 1 / span 1;
   }
 
-  .news-section {
-    position: relative;
-    top: 200px;
-    margin-left: 200px;
-    margin-right: 200px;
-    font-size: 20px;
-    font-weight: 300;
-    padding-bottom: 200px;
-  }
+.news-section {
+  position: relative;
+  top: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 200px;
+}
 
-  .news-section ul {
-    list-style-type: none;
-  }
+.news-section ul {
+  list-style-type: none;
+}
 
-  .news-section h1 {
-    color: #719641;
-    font-size: 36px;
-  }
+.news-section h1 {
+  color: #719641;
+  font-size: 36px;
+}
 
-  .back-link {
-    padding-bottom: 20px;
-    font-size: 16px;
-  }
+.back-link {
+  padding-bottom: 20px;
+  font-size: 16px;
+}
 
-  .news-post h1 {
-    padding-bottom: 5px;
-    color: black;
-  }
+.news-post h1 {
+  padding-bottom: 10px;
+  color: #000000;
+}
 
-  .posts ul {
-    padding-top: 20px;
-  }
+.news-blurb {
+  padding-bottom: 20px;
+}
+
 
 
