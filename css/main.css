@@ -536,6 +536,7 @@ footer{
   #whatTxt {
     grid-column: 1 / span 1;
   }
+
   .news-section {
     position: relative;
     top: 200px;
@@ -553,12 +554,11 @@ footer{
   .news-section h1 {
     color: #719641;
     font-size: 36px;
-    padding-bottom: 2px;
   }
 
   .back-link {
     padding-bottom: 20px;
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .news-post h1 {
@@ -569,4 +569,5 @@ footer{
   .posts ul {
     padding-top: 20px;
   }
+
 
