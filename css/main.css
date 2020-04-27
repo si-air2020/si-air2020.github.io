@@ -556,3 +556,7 @@ footer{
     font-size: 36px;
     padding-bottom: 20px;
   }
+
+.back-link {
+  padding-bottom: 30px;
+}
