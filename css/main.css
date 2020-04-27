@@ -504,7 +504,7 @@ footer{
     width: 100%;
 
 
-    background-image: linear-gradient(60deg, #8CBABE 8.85%, rgba(140, 186, 190, 0.59) 42.19%, rgba(193, 218, 220, 0.31624) 69.27%, rgba(255, 255, 255, 0) 96.35%), url("images/proj-2.png");
+    background-image: linear-gradient(60deg, #8CBABE 8.85%, rgba(140, 186, 190, 0.59) 42.19%, rgba(193, 218, 220, 0.31624) 69.27%, rgba(255, 255, 255, 0) 96.35%), url("/images/proj-2.png");
     background-size: cover;
   }
 
@@ -516,7 +516,7 @@ footer{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 34px;
     font-style: normal;
-    color: white !important;
+    --color-nav-link: white;
     justify-content: left;
     padding-left: 20px;
   }
@@ -531,8 +531,7 @@ footer{
     grid-auto-rows: 1fr;
     grid-column-gap: 50px;
     grid-column: 1 / -1;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
 
     font-family: 'Source Sans Pro', sans-serif;
   }
