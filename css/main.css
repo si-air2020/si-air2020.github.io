@@ -557,6 +557,11 @@ footer{
     padding-bottom: 20px;
   }
 
-.back-link {
-  padding-bottom: 30px;
-}
+  .back-link {
+    padding-bottom: 20px;
+  }
+
+  .news-post h1 {
+    padding-bottom: 5px;
+  }
+
