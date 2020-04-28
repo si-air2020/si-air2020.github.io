@@ -187,8 +187,8 @@ header #btnNav:checked ~ .iconNav span:after {
   grid-template-columns: 1fr 1fr; */
   position: relative;
   top: 200px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 15%;
+  margin-right: 15%;
   font-size: 20px;
   font-weight: 300;
 }
@@ -214,6 +214,13 @@ h2 {
   padding-bottom: 20px;
 
 }
+
+.amazon {
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+}
+
 
 
 p {
@@ -268,15 +275,15 @@ div.wishlist > div {
 }
 
 ul.flex {
-  height: 160px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   list-style-type: none;
 }
 
-ul.misc {
-  height: 240px;
+ul.long {
+  height: 350px;
 }
 
 
@@ -312,6 +319,10 @@ div.items > div > div > ul.flex {
   height: 270px;
 }
 
+div.items > div > div > ul.accept {
+  height: 400px;
+}
+
 div.items > div > div > ul.flex > li {
   width: 345px;
 }
@@ -326,10 +337,6 @@ div.info > div > h3 {
 div.info > div {
   padding-bottom: 20px;
 }
-
-
-
-
 
 
 /*END GET INVOLVED CONTENT*/
@@ -356,9 +363,60 @@ footer{
   margin: 10px;
 }
 
+.agenda {
+  display: none;
+}
 
+@media screen and (max-width: 660px){
+
+ ul.flex {
+ }
+}
+@media screen and (max-width: 900px){
+
+
+
+  div.items > div > div {
+    display: inline;
+  }
+  div.items > div {
+      padding-bottom: 30px;
+  }
+  div.wishlist > div {
+    display: inline;
+  }
+
+  ul.flex {
+    /* display: inline; */
+    padding-bottom: 20px;
+  }
+
+  h3 {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1152px) {
+
+  .container {
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+
+
+
+}
+@media screen and (max-width: 768px) {
+  .monthly {
+    display: none;
+  }
+  .agenda {
+    display: inline;
+  }
+}
 /********************************************************/
 @media all and (min-width: 768px) {
+
+
   header {
     display: flex;
     justify-content: space-between;
