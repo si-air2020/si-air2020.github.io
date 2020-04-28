@@ -375,6 +375,14 @@ color: var(--color-nav-link);
   grid-column: 1/13;
 }
 
+.wrapper2 {
+  grid-column: 1/13;
+  min-height: 84vh;
+  margin: 1em;
+  padding-top: 150px;
+  margin-top: 0;;
+}
+
 
 /********************************************************/
 @media all and (min-width: 768px) {
