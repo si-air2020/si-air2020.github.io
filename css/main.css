@@ -486,6 +486,7 @@ color: var(--color-nav-link);
         grid-template-rows: repeat(2, 200px);
         grid-gap: 1em;
         width: 100%;
+        margin-top: 2em;
       }
 
       .gal-Imgs img{
