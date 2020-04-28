@@ -3,7 +3,7 @@
 * { padding: 0;  margin: 0; }
 *, *:before, *:after { box-sizing: inherit; }
 html { box-sizing: border-box; font-size: 62.5%; }
-body { color: var(--color-dark); background: var(--color-light); height: 100vh;}
+body { color: var(--color-dark); background: var(--color-light); min-height: 100vh;}
 ::selection { color: var(--color-light);  background: var(--color-dark); }
 :focus { outline: 2px dotted var(--color-dark); outline-offset: -2px; }
 body, input, select, textarea, pre, code, button {
