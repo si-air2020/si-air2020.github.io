@@ -383,6 +383,13 @@ color: var(--color-nav-link);
   margin-top: 0;;
 }
 
+/* Index Mobile Styling */
+.sec1, .sec2, .sec3 {
+grid-template-columns: 1fr;
+}
+
+#what{order: -1;}
+
 
 /********************************************************/
 @media all and (min-width: 768px) {
