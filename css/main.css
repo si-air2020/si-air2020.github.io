@@ -616,6 +616,11 @@ grid-template-columns: 1fr;
     grid-column: 1 / span 1;
   }
 
+  #who, #why, #what{ padding: 10%; align-self:center}
+
+  .container{ font-size: 200%}
+
+
 .news-section {
   position: relative;
   top: 200px;
